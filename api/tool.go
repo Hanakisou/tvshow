@@ -2,7 +2,11 @@
 package api
 
 import (
-        "https://pastebin.com/raw/zeUGRz6T"
+        "github.com/YanG-1989/list/blob/main/golang/douyu.go"
+	"github.com/YanG-1989/list/blob/main/golang/bilibili.go"
+	"github.com/YanG-1989/list/blob/main/golang/douyin.go"
+	"github.com/YanG-1989/list/blob/main/golang/huya.go"
+	"github.com/YanG-1989/list/blob/main/golang/youtube.go"
 	"net/http"
 )
 
