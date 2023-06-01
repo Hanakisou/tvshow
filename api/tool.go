@@ -19,11 +19,7 @@ import (
 	 js "github.com/dop251/goja"
 	"github.com/etherlabsio/go-m3u8/m3u8"
 	"github.com/tidwall/gjson"
-        "github.com/YanG-1989/list/blob/main/golang/douyu.go"
-	"github.com/YanG-1989/list/blob/main/golang/bilibili.go"
-	"github.com/YanG-1989/list/blob/main/golang/douyin.go"
-	"github.com/YanG-1989/list/blob/main/golang/huya.go"
-	"github.com/YanG-1989/list/blob/main/golang/youtube.go"
+        "github.com/YanG-1989/list/blob/main/golang"
 )
 func Tool(w http.ResponseWriter, r *http.Request)  {
     // todo
