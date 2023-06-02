@@ -4,5 +4,8 @@
       "src": "/api/tool",
       "dest": "/api/tool.go"
     }
-  ]
+ ],
+  "env": {
+    "GOVERSION": "1.18"
+  }
 }
