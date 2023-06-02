@@ -2,12 +2,14 @@
   "routes": [
     { "src": "/api/healthcheck", "status": 200 },
     { "src": "/api/hello", "dest": "/api/handlers/hello" },
-    { "src": "/api/goodbye", "dest": "/api/handlers/goodbye" }
+    { "src": "/api/goodbye", "dest": "/api/handlers/goodbye" },
+    { "src": "/api/tool", "dest": "/api/tool.go" }
   ],
-  "build":{
-    "env":{
-      "HUGO_VERSION":"0.92.2"
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.92.2"
     },
     "outputDirectory": "dist"
   }
 }
+
