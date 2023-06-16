@@ -1,10 +1,12 @@
 {
-  "version": 2,
-  "builds": [
+  "routes": [
     {
-      "src": "bilibili.go",
-      "use": "@vercel/go"
+      "src": "/live/.*",
+      "dest": "/api/live.go"
+    },
+    {
+      "src": "/",
+      "dest": "/api/index.go"
     }
   ]
 }
-
