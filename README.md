@@ -1,4 +1,4 @@
-# iptv-go
+# iptv-go 「转载」
 使用 [vercel](https://vercel.com/) 部署 [https://github.com/youshandefeiyang/LiveRedirect](https://github.com/youshandefeiyang/LiveRedirect) 的 [Golang脚本](https://github.com/youshandefeiyang/LiveRedirect/tree/main/Golang/liveurls)
 
 ## 部署步骤
