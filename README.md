@@ -1,9 +1,11 @@
 # iptv-go 「转载」@papagaye744
 使用 [vercel](https://vercel.com/) 部署 [https://github.com/youshandefeiyang/LiveRedirect](https://github.com/youshandefeiyang/LiveRedirect) 的 [Golang脚本](https://github.com/youshandefeiyang/LiveRedirect/tree/main/Golang/liveurls)
 
+## 格式事例
+* https://″域名″/live/″Go脚本名″/″房间号″  
 ## 部署步骤
 1. Fork项目到自己的仓库
-2. 在Vercel创建Project并选择`iptv-go`
+2. 在Vercel创建Project并选择`mygolang`
 3. Build&Deploy
 4. Enjoy~
 
